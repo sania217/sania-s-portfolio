@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build:css" : "npx @tailwindcss/cli -i C:\\Users\\Shabana\\Desktop\\simple\\input.css  -o C:\\Users\\Shabana\\Desktop\\simple\\output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Jost&display=swap" rel="stylesheet">
+
+  
+  <!-- Tailwind CDN (for quick testing) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind config for custom font -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            klee: ['"Klee One"', 'cursive'],
+            jost: ['Jost', 'sans-serif'], 
+          },
+        },
+      }
+    }
+  </script>
+
+
+  <title>Sania N</title>
+</head>
+<body class="bg-[#ABD5CD]">
+  <!-- section 1-(image and name)  -->
+       <section class="h-screen lg:grid lg:grid-rows[auto,auto] lg:items-center 
+                                md:grid md:grid-rows-[auto,auto]  
+                                sm:grid sm:grid-rows-[auto,auto] sm:items-center justify-items-center items-center ">
+          <div class=" order-2 lg:order-1 text-center  lg:mb-30   md:row-start-2 md:mb-72 md:justify-items-center  ">
+           <h1 class="font-klee lg:text-4xl sm:text-3xl  ">Sania N
+             </h1>
+           <h1 class="font-jost font-semibold lg:text-3xl md:text-2xl  sm:text-3xl  ">UI/UX Designer
+             </h1>
+          </div>
+          <div class="flex- items-center justify-evenly space-x-4 ">
+            <a class="bg-[#000000] hover:bg-gray-600  text-white 
+                                                        lg:px-4 lg:py-1 
+                                                        md:px-2 md:py-0 md:mt-4 md:text-xs rounded-full"
+               href="file:///C:/Users/Shabana/Desktop/SANIA%20N%20Resume.pdf" target="_blank">CV
+            </a>
+            <a class="bg-[#000000] hover:bg-gray-600 text-white 
+                                                      lg:px-4 lg:py-1  
+                                                      md:px-2 md:py-0 md:mt-4 md:text-xs
+                                                      sm: rounded-full " 
+                  href="mailto:saniyan400@gmail.com" target="_blank">E-mail
+            </a>
+          </div>
+          
+          <img 
+           src="sanzz.png" 
+           class="w-[150px] h-[150px] lg:w-[250px] lg:h-[250px] md:w-[150px] md:h-[150px] sm:w[150px] sm:h-[150px]
+           mt-20 mx-auto   md:row-end-1 "><!--mx-auto → centers the image horizontally -->
+       </section>
+
+       
+        
+        <section class="h-screen ">
+          <div class="px-10 pb-10">
+          <h1 class="font-jost font-semibold lg:text-3xl md:text-2xl sm:text-2xl">WHO AM I
+           </h1>
+          <p class="pt-2 font-jost lg:text-xl md:text-xl sm:text-lg ">Hi, I’m Sania, a UI/UX designer 
+            focused on creating user-friendly, visually appealing, and impactful digital experiences. 
+           Skilled in HTML, CSS and design tools such as Figma,  combining design principles with 
+           coding to deliver intuitive interfaces that enhance user experience and meet project goals.
+          </p></div>
+
+          <div class="px-10 pb-10">
+          <h1 class="font-jost font-semibold lg:text-3xl md:text-2xl sm:text-2xl">WHAT I DO
+           </h1>  
+          <h2 class=" pt-4 font-jost font-medium lg:text-2xl md:text-2xl sm:text-xl">UI/UX Design
+           </h2>
+          <p class="pl-4 font-jost lg:text-xl md:text-xl sm:text-lg ">I design clean, modern, 
+            and user-friendly interfaces  that focus on enhancing user experience.
+           </p>
+          <h2 class="pt-4 font-jost font-medium lg:text-2xl md:text-2xl sm:text-xl">Front-end Development
+           </h2> 
+          <p class="pl-4 font-jost lg:text-xl md:text-xl sm:text-lg ">I build responsive and interactive websites
+             using HTML,TailwindCSS, and JavaScript.
+           </p></div>
+        </section>
+        
+    </div>
+  
+</body>
+</html>
