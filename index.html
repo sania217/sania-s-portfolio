@@ -26,6 +26,7 @@
           inknut: ['"Inknut Antiqua"', 'serif'],
         },
         screens: {
+          'xs': '375px',
           '2xl': '1440px', // custom breakpoint
          
         },
@@ -39,7 +40,7 @@
 <body>
   <!-- section 1-(image and name)  -->
       <section class=" bg-[#BDA5AB] m-3  rounded-lg p-[30px]
-                       min-h-screen lg:min-h-screen md:min-h-screen grid place-items-center
+                       h-[563px] lg:min-h-screen md:min-h-screen grid place-items-center
                        grid-rows-[auto,auto]
                        2xl:grid 2xl:grid-rows-[auto,auto]
                        lg:grid lg:grid-rows-[auto,auto] lg:items-center 
@@ -88,7 +89,7 @@
 
        <!-- about section -->
         
-        <section class="min-h-screen lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg ">
+        <section class="h-auto lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg ">
           <div class="px-10 pb-10 pt-12 2xl:p-20 2xl:pt-24">
           <h1 class="font-jost font-semibold 2xl:text-4xl lg:text-3xl md:text-2xl sm:text-2xl">WHO AM I
            </h1>
@@ -115,7 +116,7 @@
 
 <!-- skills and projects section -->
 
-        <section class="min-h-screen lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg">
+        <section class="h-auto lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg">
           <div class="px-10 ">
             <h1 class="pt-8 lg:pt-10  md:pt-8 font-jost font-semibold 2xl:text-4xl lg:text-3xl md:text-2xl sm:text-2xl">SKILLS
             </h1>
@@ -158,7 +159,7 @@
                                  lg:w-[400px] lg:h-[600px]  
                                  md:w-[400px] md:h-[300px]
                                  p-[20px] lg:p-[20px] md:p-[10px]  ">
-            <div class="-mt-20 ml-4 md:ml-12 md:-mt-20 lg:ml-2">
+            <div class="-mt-20 ml-4 md:ml-12 md:-mt-20 lg:ml-2 xs:ml-10">
               <h2 class="font-jost text-xs lg:text-xl md:text-[15px] text-[#d9d9d9]
                            ml-10 
                            lg:ml-12 lg:-mt-48
@@ -168,16 +169,16 @@
             </div>
            
           
-             <div class="flex gap-4 pt-3 lg:flex lg:gap-0 md:flex md:gap-1 -mt-2  lg:pl-1 md:pl-2 md:-mt-2">
+             <div class="flex gap-4 pt-3 lg:flex lg:gap-0 md:flex md:gap-1 -mt-2  md:pl-2 md:-mt-2 xs:ml-5">
 
                <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" 
                class="h-[20px] w-[60px] lg:h-[30px] lg:w-[100px] md:h-[20px] md:w-[60px] rounded-[5px] lg:rounded-[10px] md:rounded-[5px]
-                  ml-16 lg:ml-12 lg:p-[2px]  md:ml-20  ">
+                  ml-16 lg:ml-8 lg:p-[2px]  md:ml-20  ">
 
                   <a class="bg-[#d9d9d9] text-[#005248] text-xs px-0 py-0
                                                       lg:px-4 lg:py-1  
                                                       md:px-1 md:py-0
-                                                       lg:ml-24 lg:p-[5px] md:ml-10 lg:text-[15px] md:text-xs
+                                                       lg:ml-12 lg:p-[5px] md:ml-10 lg:text-[15px] md:text-xs
                                                        rounded-[5px] lg:rounded-[10px] md:rounded-[5px] " 
                     href="nb.html" target="_blank">View Project
                   </a>
@@ -187,7 +188,7 @@
 
         <!-- testimonials section -->
 
-        <section class="min-h-screen lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg py-20">
+        <section class="h-auto lg:min-h-screen md:min-h-screen bg-[#BDA5AB] m-3 rounded-lg py-20">
           <div class="px-10">
             <h1 class="font-jost font-semibold 2xl:text-4xl lg:text-3xl md:text-2xl sm:text-2xl ">TESTIMONIALS</h1>
             <p class="pt-4 font-jost 2xl:text-2xl lg:text-xl md:text-lg sm:text-lg">
@@ -207,7 +208,7 @@
 
         <!-- contact section -->
         
-        <section class="min-h-screen lg:min-h-screen md:min-h-screen bg-gray-500 m-3 rounded-lg">
+        <section class="h-auto lg:min-h-screen md:min-h-screen bg-gray-500 m-3 rounded-lg">
           <div class="flex items-center flex-col">
             <h1 class="font-inknut font-bold pt-24 
                       text-3xl lg:text-6xl md:text-4xl 
