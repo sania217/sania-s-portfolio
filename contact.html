@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+     <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Jost&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            klee: ['"Klee One"', 'cursive'],
+            jost: ['Jost', 'sans-serif'], 
+            inknut: ['"Inknut Antiqua"', 'serif'],
+          },
+        },
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#1C1C1C] overflow-hidden ">
+    <section id="contact" class="h-auto lg:min-h-screen md:min-h-screen m-3 rounded-lg ">
+          <div class="flex items-center flex-col">
+            <h1 class="font-inknut font-bold pt-20 
+                      text-3xl lg:text-6xl md:text-4xl 
+                      lg:px[50px] text-[#d9d9d9]">GET IN TOUCH</h1>
+          
+           <div class="flex flex-row bg-[#d9d9d9] mt-8 lg:mt-10 md:mt-10
+                      h-[200px] w-[200px] 
+                      lg:h-[250px] lg:w-[400px] 
+                      md:h-[200px] md:w-[300px] rounded-[20px] mx-2 lg:mx-auto md:mx-auto">
+                
+               <form class="flex gap-[20px] flex-col justify-center items-center mx-auto">
+                 <input type="text" name="queries" placeholder="QUERIES" class="bg-[#1c1c1c] h-[20px] w-[150px]
+                 lg:h-[30px] lg:w-[300px] md:h-[30px] md:w-[200px] rounded-[10px] font-jost">
+                  <input type="email" name="email" placeholder="EMAIL" class="bg-[#1c1c1c] h-[20px] w-[150px]
+                 lg:h-[30px] lg:w-[300px]  md:h-[30px] md:w-[200px] rounded-[10px] font-jost">
+                  <input type="submit" class="bg-[#1c1c1c] text-[#d9d9d9] px-2 py-1 lg:px-4 lg:py-2 rounded-[5px] font-jost" >
+               </form>
+              </div> 
+            </div>
+               
+               <div class="flex flex-row justify-center gap-[20px] pt-32 lg:pt-32 md:pt-28">
+                <a href="mailto:saniyan400@gmail.com" target="_blank"> 
+                  <img src="mail.svg" class="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px]">
+                </a>
+                <a href="https://www.linkedin.com/in/sania-n-075b41321/" target="_blank"> 
+                  <img src="linkedin.svg" class="w-[30px] h-[30px] lg:w-[4not-[]:px] lg:h-[40px] md:w-[40px] md:h-[40px]">
+                </a>
+                <a href="https://github.com/sania217" target="_blank"> 
+                  <img src="githubimg.svg" class="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px]">
+                </a>
+                <a href="https://www.instagram.com/_.sania_.21?igsh=YnB1amF0eXBlOWE=" target="_blank"> 
+                  <img src="insta.svg" class="w-[30px] h-[30px] lg:w-[40px] lg:h-[40px] md:w-[40px] md:h-[40px]">
+                </a>
+                
+               </div>
+
+          
+          
+        </section>
+      
+</body>
+</html>
