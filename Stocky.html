@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT STOCKY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&family=Jost&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            klee: ['"Klee One"', 'cursive'],
+            jost: ['Jost', 'sans-serif'], 
+          },
+        },
+      }
+    }
+  </script>
+  </head>
+
+  <body class="bg-[#000000]">
+    <section class="h-screen ">
+        <h1 class="font-semibold font-jost text-3xl  lg:text-5xl md:text-5xl text-center text-[#d9d9d9] 
+                   pt-28  lg:pt-24 md:pt-12">STOCKY - Automated Stock Performance Analyzer</h1>
+        <img src="STOCKY.jpeg" class=" w-[400px] h-[300px] mx-auto lg:mx-auto md:mx-auto  
+                                    lg:w-[600px] lg:h-[500px] 
+                                    md:w-[600px] md:h-[400px] mt-5">
+        
+    </section>
+     <section class="min-h-screen  bg-[#d9d9d9] 
+                     m-[20px] lg:m-[100px] md:m-[50px] rounded-2xl">
+        <h1 class="font-jost font-semibold text-2xl 
+                lg:text-4xl md:text-3xl text-[#58243B] 
+                p-[10px] lg:p-[20px] md:p-[10px]">STOCKY </h1>
+
+                <p class="font-jost pl-5 lg:pl-10 md:pl-5 text-xl text-[#58243B] ">
+             Stocky is an AI-powered stock analysis web application that allows users to search and 
+             track stocks while receiving intelligent summaries and insights. It focuses on simplifying market
+              data into clear, user-friendly information for better decision-making.
+        </p>
+                                                  
+        <ul class="font-jost pl-5 lg:pl-10 md:pl-5 text-xl text-[#58243B]">
+            Tech Stack : 
+           <li> Frontend : HTML, Tailwind CSS, JavaScript</li>
+           <li>Backend : Python, Fast API, AWS</li>
+        </ul>
+    
+    <img src="AGENTS.png" class="mx-auto  md:mt-5 w-[800px] h-[400px]
+            lg:w-[800px] lg:h-[700px]
+            md:w-[800px] md:h-[500px] ">
+
+            <a href="https://github.com/sania217/Stocky" 
+            class="  rounded-xl font-jost lg:p-2 text-xl text-[#58243B] ">GitHub Repo</a>
+            <a href="https://stocky-kappa.vercel.app/" 
+            class=" font-jost pl-5 lg:pl-10 md:pl-5 text-xl text-[#58243B]">Website Link</a>
+            
+       </section>     
+  </body>
+  </html>
